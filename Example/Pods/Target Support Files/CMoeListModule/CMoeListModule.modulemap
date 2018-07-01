@@ -1,0 +1,6 @@
+framework module CMoeListModule {
+  umbrella header "CMoeListModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

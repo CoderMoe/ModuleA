@@ -7,12 +7,18 @@
 //
 
 #import "CMoeAppDelegate.h"
-
+#import "ListViewController.h"
+#import "Target_List.h"
 @implementation CMoeAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[ListViewController alloc] init];
+    
     return YES;
 }
 

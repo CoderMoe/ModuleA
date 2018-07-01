@@ -1,0 +1,16 @@
+PODS:
+  - CMoeListModule (0.1.0)
+
+DEPENDENCIES:
+  - CMoeListModule (from `../`)
+
+EXTERNAL SOURCES:
+  CMoeListModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CMoeListModule: 06d40d4cabd131ed6517fba56c720c14809c4d2f
+
+PODFILE CHECKSUM: d64cb289354326919ee1dbf99df3e807443ac3a3
+
+COCOAPODS: 1.5.0
