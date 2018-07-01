@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "CMoeListModule/Classes/**/*"
+  "source_files": "CMoeListModule/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
 }

@@ -11,6 +11,7 @@
 #endif
 
 #import "Target_List.h"
+#import "CTMediator+CMoeMediatorModuleListActions.h"
 #import "ListViewController.h"
 
 FOUNDATION_EXPORT double CMoeListModuleVersionNumber;
