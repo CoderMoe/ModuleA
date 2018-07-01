@@ -143,10 +143,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CMoeDetailCategoryModule/CMoeDetailCategoryModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CMoeListModule/CMoeListModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/CMoeDetailCategoryModule/CMoeDetailCategoryModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CMoeListModule/CMoeListModule.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
 fi

@@ -1,5 +1,8 @@
 PODS:
+  - CMoeDetailCategoryModule (0.1.0):
+    - CTMediator
   - CMoeListModule (0.1.0):
+    - CMoeDetailCategoryModule
     - CTMediator
   - CTMediator (18)
 
@@ -7,6 +10,8 @@ DEPENDENCIES:
   - CMoeListModule (from `../`)
 
 SPEC REPOS:
+  http://192.168.11.50/APP/Spec.git:
+    - CMoeDetailCategoryModule
   https://github.com/CocoaPods/Specs.git:
     - CTMediator
 
@@ -15,9 +20,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CMoeListModule: adb3ddb08fab57f4969d110bd1186f2add42a6de
+  CMoeDetailCategoryModule: 3d85609baa753ba41b4a9c7e2dbdac171d1d7c21
+  CMoeListModule: 8709da7add53f28ce7fe45e80fc4bbaca87a0d60
   CTMediator: 420e9d90f9f1fd740caf2238ed7ed64dc621c5b7
 
-PODFILE CHECKSUM: d64cb289354326919ee1dbf99df3e807443ac3a3
+PODFILE CHECKSUM: a0f335c93ede7dfc408bc24c57ad05da7607b60e
 
 COCOAPODS: 1.5.0

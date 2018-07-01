@@ -326,11 +326,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CMoeListModule_Example/Pods-CMoeListModule_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CMoeDetailCategoryModule/CMoeDetailCategoryModule.framework",
 				"${BUILT_PRODUCTS_DIR}/CMoeListModule/CMoeListModule.framework",
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CMoeDetailCategoryModule.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CMoeListModule.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 			);

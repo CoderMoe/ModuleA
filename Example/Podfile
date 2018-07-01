@@ -1,5 +1,8 @@
 use_frameworks!
 
+source 'http://192.168.11.50/APP/Spec.git'  #我们自己的私有库
+source 'https://github.com/CocoaPods/Specs.git' 
+
 target 'CMoeListModule_Example' do
   pod 'CMoeListModule', :path => '../'
 

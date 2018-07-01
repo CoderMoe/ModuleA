@@ -7,6 +7,7 @@
 //
 
 #import "ListViewController.h"
+#import <CMoeDetailCategoryModule/CTMediator+CMoeMediatorModuleDetailActions.h>
 
 @interface ListViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -29,6 +30,13 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([UITableViewCell class]) forIndexPath:indexPath];
     cell.textLabel.text = self.dataArr[indexPath.row];
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//    UIViewController *vc = [[CTMediator sharedInstance] CTMediator_viewControllerForDetailWithParam:@{@"value":indexPath.row}];
+    
+        UIViewController *vc = [[CTMediator sharedInstance] CTMediator_viewControllerForDetail];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (UITableView *)tableView {
